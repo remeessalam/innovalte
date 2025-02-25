@@ -339,8 +339,7 @@ export const faqItems = [
   {
     id: 1,
     question: "How can I get in touch with InnovAIte IT?",
-    answer:
-      "You can contact us through our website’s contact form or email us directly at support@[yourcompany].com. For immediate assistance, call us at +91-1234567890.",
+    answer: `You can contact us through our website’s contact form or email us directly at ${companyDetails.email}. For immediate assistance, call us at ${companyDetails.phone}`,
   },
   {
     id: 2,
