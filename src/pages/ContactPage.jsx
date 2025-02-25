@@ -1,7 +1,6 @@
 import CommonBanner from "../components/CommonBanner";
 import FAQSection from "../components/Faq";
 import { images } from "../constant";
-import CompanyAddress from "./ContactPageSections/CompanyAddress";
 import ContactForm from "./ContactPageSections/ContactForm";
 
 const ContactPage = () => {
@@ -19,7 +18,7 @@ const ContactPage = () => {
       <div className="adjustedwidth mx-auto mt-10 sm:mt-20 ">
         {/* <CompanyAddress /> */}
         <FAQSection />
-        <div data-aos="fade-up" className="bg-[#DCD3E6]">
+        <div data-aos="fade-up" className="bg-secondary/40">
           <ContactForm />
         </div>
       </div>

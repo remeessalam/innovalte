@@ -27,28 +27,33 @@ import gamedevelopmentimage from "./assets/images/services/gamedevelopmentimage.
 import blockchainimage from "./assets/images/services/blockchainimage.png";
 import cloudserviceimage from "./assets/images/services/cloudserviceimage.png";
 import cybersecurityimage from "./assets/images/services/cybersecurityimage.png";
-import saiimage from "./assets/images/serviceimage/aiimage.png";
-import smobiledevelopmentimage from "./assets/images/serviceimage/mobiledevelopmentimage.png";
-import swebdevelopmentimage from "./assets/images/serviceimage/webdevelopmentimage.png";
-import suiuximage from "./assets/images/serviceimage/uiuximage.png";
+import cloudmigrationimage from "./assets/images/services/cloudmigration.png";
+import nlpimage from "./assets/images/services/nlp.png";
+//service images
+import saiimage from "./assets/images/serviceimage/aiimage.jpg";
+import smobiledevelopmentimage from "./assets/images/serviceimage/mobiledevelopmentimage.jpg";
+import swebdevelopmentimage from "./assets/images/serviceimage/webdevelopmentimage.jpg";
+import suiuximage from "./assets/images/serviceimage/uiuximage.jpg";
 import scustomsoftwareimage from "./assets/images/serviceimage/customsoftwareimage.png";
-import sdataanalyticsimage from "./assets/images/serviceimage/dataanalyticsimage.png";
+import sdataanalyticsimage from "./assets/images/serviceimage/dataanalyticsimage.jpg";
 import siotimage from "./assets/images/serviceimage/iotimage.png";
-import sroboticautomationimage from "./assets/images/serviceimage/roboticautomationimage.png";
+import sroboticautomationimage from "./assets/images/serviceimage/roboticautomationimage.jpg";
 import sarvrimage from "./assets/images/serviceimage/arvrimage.png";
-import sgamedevelopmentimage from "./assets/images/serviceimage/gamedevelopmentimage.png";
-import sblockchainimage from "./assets/images/serviceimage/blockchainimage.png";
-import scloudserviceimage from "./assets/images/serviceimage/cloudserviceimage.png";
+import sgamedevelopmentimage from "./assets/images/serviceimage/gamedevelopmentimage.jpg";
+import sblockchainimage from "./assets/images/serviceimage/blockchainimage.jpg";
+import scloudserviceimage from "./assets/images/serviceimage/cloudserviceimage.jpg";
 import scybersecurityimage from "./assets/images/serviceimage/cybersecurityimage.png";
+import scloudmigrationimage from "./assets/images/serviceimage/cloudmigration.jpg";
+import snlpimage from "./assets/images/serviceimage/nlp.jpg";
+//other image
 import aboutpageimageone from "./assets/images/aboutpageimageone.jpeg";
 import companyachievementsimage from "./assets/images/companyachievementsimage.jpg";
 import aboutpageimagethree from "./assets/images/aboutpageimagethree.jpeg";
 import aboutpageimagefour from "./assets/images/aboutpageimagefour.jpeg";
 import aboutpageimagetwo from "./assets/images/aboutpageimagetwo.png";
 import fullstart from "./assets/images/fullstar.png";
-import fourstart from "./assets/images/fourstar.png";
 import testimonialsuserimage from "./assets/images/testimonialsuserimage.png";
-import contactuspagebanner from "./assets/images/contactuspagebanner.png";
+import contactuspagebanner from "./assets/images/contactuspagebanner.jpg";
 import landingpagebannerapp from "./assets/images/landingpagebannerapp.jpg";
 import landingpagebannerweb from "./assets/images/landingpagebannerweb.png";
 import portfoliwebone from "./assets/images/portfolio/1-min.webp";
@@ -78,17 +83,14 @@ import cogwheel from "./assets/images/landingpage/cogwheel.png";
 import webLandingAbout from "./assets/images/webLandingAbout.png";
 import appLandingAbout from "./assets/images/appLandingAbout.png";
 import whychooseusbackground from "./assets/images/whychooseusbackground.jpg";
-import testimonialbackground from "./assets/images/testimonialbackground.png";
+import testimonialbackground from "./assets/images/testimonialbackground.jpg";
 import Finetunedsolutionimg from "./assets/images/Finetunedsolutionimg.jpg";
 import Innovationfocused from "./assets/images/Innovationfocused.jpg";
 import Scalableframeworks from "./assets/images/Scalableframeworks.jpg";
-import aboutusbanner from "./assets/images/aboutusbanner.png";
-import servicepagebanner from "./assets/images/servicepagebanner.png";
-import aiImage from "./assets/images/aiimageforcontact.png";
-import cloudmigrationimage from "./assets/images/aiimageforcontact.png";
-import scloudmigrationimage from "./assets/images/aiimageforcontact.png";
-import nlpimage from "./assets/images/aiimageforcontact.png";
-import snlpimage from "./assets/images/aiimageforcontact.png";
+import aboutusbanner from "./assets/images/aboutusbanner.jpg";
+import servicepagebanner from "./assets/images/servicepagebanner.jpg";
+import aiImage from "./assets/images/aiimageforcontact.jpg";
+
 import landingaboutpc from "./assets/images/landingaboutpc.png";
 import faqbg from "./assets/images/faqbg.png";
 export const images = {
@@ -142,9 +144,10 @@ export const socialmediaIcons = [
 ];
 
 export const companyDetails = {
-  address: "[company address]",
-  phone: "+91-9000000",
-  whatsapp: "900000000",
+  address: `308, 16-2-755/D, SRI LORVEN NILAYAM, KALYAN NAGAR, 
+GADDIANNARAM, DILSUKHNAGAR, HYDERABAD – 500060`,
+  phone: "+91-8985412345",
+  whatsapp: "8985412345",
   link: "🌐 Website: [your company name].com",
   email: "example@xzy.com",
 };
@@ -189,16 +192,7 @@ export const ourServices = [
     paragraph:
       "Craft seamless, engaging experiences through user-centric design that not only meets functional requirements but also fosters emotional connections.",
   },
-  {
-    id: 5,
-    img: customsoftwareimage,
-    image: scustomsoftwareimage,
-    title: "Custom Software Development",
-    description:
-      "We begin with an in-depth analysis of your business goals to create software that drives meaningful change. Our iterative development process ensures that the software aligns perfectly with your needs, while our dedicated QA team guarantees reliability through extensive testing.",
-    paragraph:
-      "Tailored software solutions that meet your unique business needs, designed and tested for performance, reliability, and scalability.",
-  },
+
   {
     id: 6,
     img: dataanalyticsimage,
@@ -209,16 +203,7 @@ export const ourServices = [
     paragraph:
       "Unlock actionable insights from your data, enabling smarter decisions that drive growth and improve operational efficiency.",
   },
-  {
-    id: 7,
-    img: iotimage,
-    image: siotimage,
-    title: "Internet of Things (IoT)",
-    description:
-      "At [your company name]., we create IoT solutions that help businesses monitor, control, and improve their processes. From real-time data collection to seamless integration, our IoT technology enhances efficiency across industries like healthcare, manufacturing, and logistics.",
-    paragraph:
-      "Transform your business with IoT solutions that provide real-time insights, streamline operations, and improve decision-making.",
-  },
+
   {
     id: 8,
     img: roboticautomationimage,
@@ -229,16 +214,7 @@ export const ourServices = [
     paragraph:
       "Enhance productivity and reduce costs by automating mundane tasks with our RPA solutions, allowing your team to focus on strategic initiatives.",
   },
-  {
-    id: 9,
-    img: arvrimage,
-    image: sarvrimage,
-    title: "Augmented Reality (AR) & Virtual Reality (VR)",
-    description:
-      "We offer cutting-edge AR and VR solutions that redefine customer engagement and training experiences. Whether for marketing, product demos, or immersive learning, our solutions captivate audiences and create lasting impressions.",
-    paragraph:
-      "Elevate customer engagement and training with immersive AR and VR solutions that offer unforgettable, interactive experiences.",
-  },
+
   {
     id: 10,
     img: gamedevelopmentimage,
@@ -269,16 +245,7 @@ export const ourServices = [
     paragraph:
       "Optimize your business operations with scalable, secure, and efficient cloud services that enhance collaboration and performance.",
   },
-  {
-    id: 13,
-    img: cybersecurityimage,
-    image: scybersecurityimage,
-    title: "Cybersecurity",
-    description:
-      "We provide comprehensive cybersecurity services to protect your business from evolving digital threats. Our proactive approach ensures that your data, networks, and operations remain secure, minimizing risk and ensuring compliance.",
-    paragraph:
-      "Protect your business with robust cybersecurity solutions that safeguard your data, networks, and ensure compliance with industry standards.",
-  },
+
   {
     id: 14,
     img: cloudmigrationimage, // Replace with actual image import

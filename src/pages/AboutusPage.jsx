@@ -1,5 +1,4 @@
 import CommonBanner from "../components/CommonBanner";
-// import aboutVideo from "../assets/video/aboutusbanner.mp4";
 import Aboutus from "./AboutPageSections/Aboutus";
 import CompanyAchievements from "../components/CompanyAchievements";
 import CompanyExperience from "./AboutPageSections/CompanyExperience";

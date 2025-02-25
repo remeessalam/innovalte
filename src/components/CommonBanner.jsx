@@ -21,7 +21,7 @@ const CommonBanner = ({
           page === "About us" ? `h-screen` : `h-[70vh]`
         } object-cover overflow-hidden`}
       >
-        <div className="absolute top-0 left-0 w-full h-full bg-black/20" />
+        <div className="absolute top-0 left-0 w-full h-full bg-black/40" />
         {isImage ? (
           <img
             src={image}
@@ -50,19 +50,19 @@ const CommonBanner = ({
             <div className="">
               <h1
                 data-aos="fade-up"
-                className="whitetextshadow text-black  text-smhead px-5 sm:pl-10 leading-tight uppercase"
+                className="   text-smhead px-5 sm:pl-10 leading-tight uppercase"
               >
                 {page}
               </h1>
               <h1
                 data-aos="fade-up"
-                className="text-black px-5 sm:pl-10 text-smallxl sm:text-1xl leading-tight"
+                className=" px-5 sm:pl-10 text-smallxl sm:text-1xl leading-tight"
               >
                 {heading}
               </h1>
               <p
                 data-aos="fade-up"
-                className="text-black whitetextshadow font-semibold  text-desc px-5 sm:pl-10 mt-5"
+                className="  font-semibold  text-desc px-5 sm:pl-10 mt-5"
               >
                 {description}
               </p>
