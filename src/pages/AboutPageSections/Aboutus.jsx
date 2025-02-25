@@ -25,22 +25,22 @@ const Aboutus = () => {
               Innovating Technology, Empowering Businesses
             </h2>
             <p className="text-desc mt-4">
-              At [your company name], we pride ourselves on being pioneers at
-              the forefront of technological innovation. Our mission is to
-              deliver world-class, tailor-made technology solutions that empower
+              At InnovAIte IT, we pride ourselves on being pioneers at the
+              forefront of technological innovation. Our mission is to deliver
+              world-class, tailor-made technology solutions that empower
               businesses to excel in the ever-evolving digital landscape.
               Whether you are an ambitious startup or an established enterprise,
-              [your company name] is your ultimate technology partner. With a
-              team of seasoned experts possessing deep insights into industry
-              trends, we specialize in crafting customized solutions by
-              harnessing the power of Artificial Intelligence. Every challenge
-              is approached with creativity, precision, and a commitment to
-              excellence, ensuring that our clients stay ahead of the
-              competition while achieving operational efficiency and sustainable
-              growth. Collaboration and innovation are at the heart of what we
-              do. We don't just deliver services—we become an integral part of
-              your team, driving your business goals forward with scalable
-              solutions that adapt and evolve as your organization grows.
+              InnovAIte IT is your ultimate technology partner. With a team of
+              seasoned experts possessing deep insights into industry trends, we
+              specialize in crafting customized solutions by harnessing the
+              power of Artificial Intelligence. Every challenge is approached
+              with creativity, precision, and a commitment to excellence,
+              ensuring that our clients stay ahead of the competition while
+              achieving operational efficiency and sustainable growth.
+              Collaboration and innovation are at the heart of what we do. We
+              don't just deliver services—we become an integral part of your
+              team, driving your business goals forward with scalable solutions
+              that adapt and evolve as your organization grows.
             </p>
           </div>
         </div>

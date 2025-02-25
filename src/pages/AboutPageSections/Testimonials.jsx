@@ -139,9 +139,9 @@ const Testimonials = () => {
             Client Testimonials
           </h3>
           <p className="text-desc text-gray-200 max-w-[95%] sm:max-w-[50%] text-center mt-7">
-            At <strong>[your company name]</strong> , we take pride in the
-            success of our clients. Here&apos;s what some of them have to say
-            about their experience working with us
+            At <strong>InnovAIte IT</strong> , we take pride in the success of
+            our clients. Here&apos;s what some of them have to say about their
+            experience working with us
           </p>
         </div>
         <div className="flex flex-col  max-w-[95%] mx-auto ">

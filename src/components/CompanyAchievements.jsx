@@ -57,10 +57,10 @@ const CompanyAchievements = () => {
             Driving Innovation Through Technology
           </h3>
           <p data-aos="fade-up" className=" text-white/80 text-desc ">
-            At [Your Company Name], we are dedicated to delivering
-            state-of-the-art technology solutions that transform businesses. Our
-            mission is to foster innovation, improve efficiency, and create
-            long-term success for our clients.
+            At InnovAIte IT, we are dedicated to delivering state-of-the-art
+            technology solutions that transform businesses. Our mission is to
+            foster innovation, improve efficiency, and create long-term success
+            for our clients.
           </p>
           <Link data-aos="fade-up" to={"/services"} className="z-50">
             <h3 className="primary-btn  w-fit">Discover More</h3>

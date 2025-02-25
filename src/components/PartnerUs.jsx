@@ -9,8 +9,8 @@ const PartnerUs = () => {
           data-aos="fade-up"
           className="text-decsriptioncolor text-center mt-10"
         >
-          At<strong> [your company name].</strong>, we’re committed to being
-          your partner in innovation. Whether you’re looking to launch a
+          At<strong> InnovAIte IT.</strong>, we’re committed to being your
+          partner in innovation. Whether you’re looking to launch a
           groundbreaking app, develop custom software, harness the power of
           artificial intelligence, or dive into data analytics, our team is here
           to support you at every step. <br />

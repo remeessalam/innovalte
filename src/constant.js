@@ -151,7 +151,7 @@ export const companyDetails = {
 GADDIANNARAM, DILSUKHNAGAR, HYDERABAD – 500060`,
   phone: "+91-8985412345",
   whatsapp: "8985412345",
-  link: "🌐 Website: [your company name].com",
+  link: "🌐 Website: innovaiteit.com",
   email: "example@xzy.com",
 };
 export const ourServices = [
@@ -161,9 +161,9 @@ export const ourServices = [
     image: saiimage,
     title: "Artificial Intelligence (AI)",
     description:
-      "Unlock the limitless potential of AI-driven solutions at [your company name]., where we transform your business operations into intelligent, efficient systems that drive success. With our predictive analytics, we empower you to leverage data insights to anticipate market trends, understand customer behavior, and make informed decisions that enhance your competitive edge. Our intelligent automation solutions streamline workflows, reduce operational costs, and eliminate mundane tasks, enabling your team to focus on strategic initiatives.",
+      "Unlock the limitless potential of AI-driven solutions at InnovAIte IT., where we transform your business operations into intelligent, efficient systems that drive success. With our predictive analytics, we empower you to leverage data insights to anticipate market trends, understand customer behavior, and make informed decisions that enhance your competitive edge. Our intelligent automation solutions streamline workflows, reduce operational costs, and eliminate mundane tasks, enabling your team to focus on strategic initiatives.",
     paragraph:
-      "At [your company name]., we provide AI solutions that enhance decision-making, optimize performance, and reduce operational costs through automation, helping you stay ahead in a competitive market.",
+      "At InnovAIte IT., we provide AI solutions that enhance decision-making, optimize performance, and reduce operational costs through automation, helping you stay ahead in a competitive market.",
   },
   {
     id: 2,
@@ -171,7 +171,7 @@ export const ourServices = [
     image: smobiledevelopmentimage,
     title: "Mobile App Development",
     description:
-      "In today’s mobile-first world, having a dynamic and user-friendly app is a necessity for business success. At [your company name]., we craft high-performance mobile applications tailored to meet your business needs. From concept to launch, our expert developers ensure that each app is visually stunning and delivers a seamless user experience, with ongoing support to keep your app relevant and engaging.",
+      "In today’s mobile-first world, having a dynamic and user-friendly app is a necessity for business success. At InnovAIte IT., we craft high-performance mobile applications tailored to meet your business needs. From concept to launch, our expert developers ensure that each app is visually stunning and delivers a seamless user experience, with ongoing support to keep your app relevant and engaging.",
     paragraph:
       "Transform your business and engage your customers with high-performance mobile apps tailored to your business needs and user expectations.",
   },
@@ -181,7 +181,7 @@ export const ourServices = [
     image: swebdevelopmentimage,
     title: "Website Development",
     description:
-      "Your website is the digital face of your business. At [your company name]., we specialize in designing responsive, functional websites that captivate visitors and effectively communicate your brand message. With a mobile-first approach, we ensure that your website looks and performs flawlessly across all devices, driving higher engagement and conversions.",
+      "Your website is the digital face of your business. At InnovAIte IT., we specialize in designing responsive, functional websites that captivate visitors and effectively communicate your brand message. With a mobile-first approach, we ensure that your website looks and performs flawlessly across all devices, driving higher engagement and conversions.",
     paragraph:
       "Create a memorable online presence with responsive and visually stunning websites that engage visitors and drive conversions.",
   },
@@ -234,7 +234,7 @@ export const ourServices = [
     image: sblockchainimage,
     title: "Blockchain Solutions",
     description:
-      "At [your company name]., we specialize in blockchain solutions that enhance security, transparency, and trust. Our decentralized technology enables secure transactions, effective data management, and improved traceability, promoting confidence among stakeholders.",
+      "At InnovAIte IT., we specialize in blockchain solutions that enhance security, transparency, and trust. Our decentralized technology enables secure transactions, effective data management, and improved traceability, promoting confidence among stakeholders.",
     paragraph:
       "Leverage blockchain technology to enhance security, transparency, and trust in your operations while ensuring secure transactions.",
   },
@@ -283,21 +283,21 @@ export const meetCompanyDetails = [
     img: meetcompanyimageone,
     heading: "Innovative Technology Solutions",
     description:
-      "At [your company name]., we blend creativity with technical expertise to deliver cutting-edge technology services. From AI-powered tools to user-friendly mobile applications, we craft scalable solutions tailored to your business needs, ensuring efficiency, innovation, and long-term success.",
+      "At InnovAIte IT., we blend creativity with technical expertise to deliver cutting-edge technology services. From AI-powered tools to user-friendly mobile applications, we craft scalable solutions tailored to your business needs, ensuring efficiency, innovation, and long-term success.",
   },
   {
     id: 2,
     img: meetcompanyimagetwo,
     heading: "Empowering Businesses with AI",
     description:
-      "[your company name]. transforms challenges into opportunities with AI-driven solutions and tailored strategies. Our scalable platforms and intuitive applications are designed to adapt as your business evolves, driving innovation and growth in the digital age.",
+      "InnovAIte IT. transforms challenges into opportunities with AI-driven solutions and tailored strategies. Our scalable platforms and intuitive applications are designed to adapt as your business evolves, driving innovation and growth in the digital age.",
   },
   {
     id: 3,
     img: meetcompanyimagethree,
     heading: "Driving Success with Collaboration",
     description:
-      "[your company name]. specializes in delivering customized, future-ready technology solutions. Our team partners with clients to craft AI-powered tools and mobile applications that enhance operations, foster innovation, and unlock new business potential.",
+      "InnovAIte IT. specializes in delivering customized, future-ready technology solutions. Our team partners with clients to craft AI-powered tools and mobile applications that enhance operations, foster innovation, and unlock new business potential.",
   },
 ];
 
@@ -307,7 +307,7 @@ export const companyProcess = [
     img: Finetunedsolutionimg,
     title: "Tailored Solutions for Your Business",
     description:
-      "At [your company name], we recognize that each business has unique challenges. Our expert team carefully assesses your needs and crafts technology solutions that integrate seamlessly with your operations, enhancing efficiency and productivity.",
+      "At InnovAIte IT, we recognize that each business has unique challenges. Our expert team carefully assesses your needs and crafts technology solutions that integrate seamlessly with your operations, enhancing efficiency and productivity.",
   },
   {
     id: 2,
@@ -338,13 +338,13 @@ export const teamMembers = [
 export const faqItems = [
   {
     id: 1,
-    question: "How can I get in touch with [your company name]?",
+    question: "How can I get in touch with InnovAIte IT?",
     answer:
       "You can contact us through our website’s contact form or email us directly at support@[yourcompany].com. For immediate assistance, call us at +91-1234567890.",
   },
   {
     id: 2,
-    question: "What services does [your company name] offer?",
+    question: "What services does InnovAIte IT offer?",
     answer:
       "We specialize in AI solutions, web and app development, cybersecurity, cloud computing, blockchain, and more. Check out our Services page for details.",
   },
@@ -375,7 +375,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Sarah K.",
     position: "CEO",
-    says: "The AI solutions developed by [Your Company Name] have been a game changer for our business. With predictive analytics, we’ve been able to make smarter decisions, and the impact on our bottom line has been immediate.",
+    says: "The AI solutions developed by InnovAIte IT have been a game changer for our business. With predictive analytics, we’ve been able to make smarter decisions, and the impact on our bottom line has been immediate.",
     about: "Artificial Intelligence (AI)",
   },
   {
@@ -384,7 +384,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Michael R.",
     position: "Product Manager",
-    says: "We chose [Your Company Name] for our app development, and they exceeded all our expectations. The app is intuitive, fast, and has been a huge hit with our customers. Their team truly understands mobile development.",
+    says: "We chose InnovAIte IT for our app development, and they exceeded all our expectations. The app is intuitive, fast, and has been a huge hit with our customers. Their team truly understands mobile development.",
     about: "Mobile App Development",
   },
   {
@@ -393,7 +393,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Emily S.",
     position: "E-commerce Director",
-    says: "Our new website, designed by [Your Company Name], is not only visually stunning but also highly functional. It’s helped us improve customer engagement and streamline our online sales process.",
+    says: "Our new website, designed by InnovAIte IT, is not only visually stunning but also highly functional. It’s helped us improve customer engagement and streamline our online sales process.",
     about: "Website Development",
   },
   {
@@ -402,7 +402,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Daniel T.",
     position: "Finance Manager",
-    says: "We implemented RPA with [Your Company Name] to automate our back-office processes, and the results have been incredible. We're now saving hours each week, and our accuracy has improved significantly.",
+    says: "We implemented RPA with InnovAIte IT to automate our back-office processes, and the results have been incredible. We're now saving hours each week, and our accuracy has improved significantly.",
     about: "Robotic Process Automation (RPA)",
   },
   {
@@ -411,7 +411,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Natalie G.",
     position: "Supply Chain Lead",
-    says: "The blockchain solution [Your Company Name] provided has been a perfect fit for our business. It's enhanced the security and transparency of our transactions and given us more control over our operations.",
+    says: "The blockchain solution InnovAIte IT provided has been a perfect fit for our business. It's enhanced the security and transparency of our transactions and given us more control over our operations.",
     about: "Blockchain Solutions",
   },
   {
@@ -420,7 +420,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Kevin B.",
     position: "IT Director",
-    says: "Migrating to the cloud with [Your Company Name] was easier than we ever imagined. Their team made the process seamless, and we’re now able to scale our resources efficiently while cutting costs.",
+    says: "Migrating to the cloud with InnovAIte IT was easier than we ever imagined. Their team made the process seamless, and we’re now able to scale our resources efficiently while cutting costs.",
     about: "Cloud Migration Services",
   },
   {
@@ -429,7 +429,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Olivia W.",
     position: "Marketing Strategist",
-    says: "With the insights we gained from [Your Company Name]’s data science team, we’ve been able to fine-tune our marketing strategies and significantly increase our customer conversion rates.",
+    says: "With the insights we gained from InnovAIte IT’s data science team, we’ve been able to fine-tune our marketing strategies and significantly increase our customer conversion rates.",
     about: "Data Science Services",
   },
   {
@@ -438,7 +438,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Ethan P.",
     position: "Customer Success Lead",
-    says: "The design team at [Your Company Name] delivered a user-friendly and visually appealing UI/UX that our customers love. The design has made a noticeable difference in user satisfaction and retention.",
+    says: "The design team at InnovAIte IT delivered a user-friendly and visually appealing UI/UX that our customers love. The design has made a noticeable difference in user satisfaction and retention.",
     about: "UI/UX Design",
   },
   {
@@ -447,7 +447,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Grace L.",
     position: "Operations Lead",
-    says: "Thanks to [Your Company Name]’s cloud migration services, we’ve successfully moved to the cloud with minimal disruption. The transition has improved our agility, security, and overall efficiency.",
+    says: "Thanks to InnovAIte IT’s cloud migration services, we’ve successfully moved to the cloud with minimal disruption. The transition has improved our agility, security, and overall efficiency.",
     about: "Cloud Migration Services",
   },
   {
@@ -456,7 +456,7 @@ export const testimonials = [
     starimg: fullstart,
     name: "Ryan C.",
     position: "Customer Support Manager",
-    says: "NLP solutions from [Your Company Name] have revolutionized our customer service operations. The chatbot they developed answers questions instantly, and the sentiment analysis helps us better understand our customers’ needs.",
+    says: "NLP solutions from InnovAIte IT have revolutionized our customer service operations. The chatbot they developed answers questions instantly, and the sentiment analysis helps us better understand our customers’ needs.",
     about: "Natural Language Processing (NLP)",
   },
 ];
@@ -537,7 +537,7 @@ export const whyChooseUs = [
     icon: target,
     heading: "Customer-Centric Approach: Your Vision, Our Mission",
     description:
-      "At [your company name]., you are not just a client; you are our top priority. We are dedicated to forging strong partnerships that allow us to deeply understand your unique needs and aspirations. Our team collaborates with you every step of the way, ensuring that we deliver tailored solutions that seamlessly integrate with your business. With a focus on personalization and excellence, we empower you to achieve your goals and thrive in today’s dynamic marketplace. Your success is our mission, and we are here to make it happen.",
+      "At InnovAIte IT., you are not just a client; you are our top priority. We are dedicated to forging strong partnerships that allow us to deeply understand your unique needs and aspirations. Our team collaborates with you every step of the way, ensuring that we deliver tailored solutions that seamlessly integrate with your business. With a focus on personalization and excellence, we empower you to achieve your goals and thrive in today’s dynamic marketplace. Your success is our mission, and we are here to make it happen.",
   },
   {
     id: 3,

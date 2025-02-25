@@ -27,8 +27,8 @@ const About = () => {
               Transforming Businesses with Cutting-Edge Technology
             </h1>
             <p className="text-desc">
-              At [Your Company Name], we provide innovative technology solutions
-              that drive digital transformation, enabling businesses to enhance
+              At InnovAIte IT, we provide innovative technology solutions that
+              drive digital transformation, enabling businesses to enhance
               efficiency, scalability, and success in a rapidly evolving world.
             </p>
           </div>

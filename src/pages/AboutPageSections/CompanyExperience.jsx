@@ -17,7 +17,7 @@ const CompanyExperience = () => {
             />
           </div>
           <p data-aos="fade-right" className="my-6 text-desc">
-            At [your company name], our team combines creativity and technical
+            At InnovAIte IT, our team combines creativity and technical
             expertise, bringing together a group of seasoned professionals with
             deep industry knowledge. We embrace our diverse backgrounds, with
             each member contributing unique insights that drive our innovative
@@ -47,7 +47,7 @@ const CompanyExperience = () => {
             className="text-black text-smhead flex items-center gap-1"
           >
             {/* <p className="w-[15px] h-[15px] rounded-full bg-[#FCAF3D]"></p> */}
-            Meet [your company name]
+            Meet InnovAIte IT
           </h5>
           <h2
             data-aos="fade-left"
@@ -56,7 +56,7 @@ const CompanyExperience = () => {
             Year of experience in this business field
           </h2>
           <p data-aos="fade-left" className="text-desc">
-            At [your company name], our team blends creativity with technical
+            At InnovAIte IT, our team blends creativity with technical
             expertise, bringing together seasoned professionals who possess
             extensive industry knowledge. We celebrate our diverse backgrounds,
             with each member contributing unique insights that drive our
@@ -78,11 +78,11 @@ const CompanyExperience = () => {
             />
           </div>
           <p data-aos="fade-left" className="text-desc">
-            At [your company name], we combine creativity and technical
-            expertise, bringing together a team of seasoned professionals with
-            vast industry knowledge. We embrace the diversity of our
-            backgrounds, where each member brings unique insights that fuel our
-            innovative spirit.
+            At InnovAIte IT, we combine creativity and technical expertise,
+            bringing together a team of seasoned professionals with vast
+            industry knowledge. We embrace the diversity of our backgrounds,
+            where each member brings unique insights that fuel our innovative
+            spirit.
           </p>
           <p data-aos="fade-left" className="mt-6 text-desc">
             We specialize in a wide range of technology services designed to

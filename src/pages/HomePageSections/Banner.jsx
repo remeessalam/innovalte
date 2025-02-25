@@ -19,7 +19,7 @@ const Banner = () => {
             data-aos-delay="100"
             className="text-4xl sm:text-1xl   leading-tight"
           >
-            Welcome to [Your Company Name]
+            Welcome to InnovAIte IT
           </h1>
 
           <p
@@ -27,13 +27,13 @@ const Banner = () => {
             // whitetextshadow
             className="text-white text-desc  max-w-[70%] font-semibold my-4 "
           >
-            At [Your Company Name], we’re driven by a passion for helping
-            businesses thrive in the digital age. Our wide range of services is
-            designed to solve your toughest challenges and create opportunities
-            for growth through the power of technology. Whether you&apos;re
-            looking to streamline operations, build custom solutions, or enhance
-            your online presence, our team is here to guide you every step of
-            the way.
+            At InnovAIte IT, we’re driven by a passion for helping businesses
+            thrive in the digital age. Our wide range of services is designed to
+            solve your toughest challenges and create opportunities for growth
+            through the power of technology. Whether you&apos;re looking to
+            streamline operations, build custom solutions, or enhance your
+            online presence, our team is here to guide you every step of the
+            way.
           </p>
           <div className="sm:max-w-[60%] max-w-full flex md:flex-row flex-col items-center justify-center">
             <Link data-aos="fade-up" to={"/services"}>

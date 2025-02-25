@@ -1,13 +1,11 @@
-// import RoundedHeading from "../../components/RoundedHeading";
 import { meetCompanyDetails } from "../../constant";
 
 const MeetCompany = () => {
   return (
     <div className="mt-10 sm:mt-30">
       <h2 className="text-sechead mb-10 sm:mb-0 text-center text-black leading-tight">
-        meet [your company name]
+        meet InnovAIte IT
       </h2>
-      {/* <RoundedHeading text="meet [your company name]" /> */}
       <div className="flex justify-center">
         <div className="adjustedwidth  grid grid-cols-1 sm:grid-cole-2 md:grid-cols-3 mt-2 sm:mt-10 mb-10 gap-8">
           {meetCompanyDetails.map((obj) => (
