@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 import LandingForm from "./components/LandingForm";
 import Footer from "./components/Footer";
 import FAQSection from "../components/Faq";
+//eslint-disable-next-line
 const LandingPage = ({ page }) => {
   AOS.init({
     once: true,

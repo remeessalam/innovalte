@@ -1,6 +1,6 @@
 import RoundedHeading from "../../components/RoundedHeading";
 import { portfolioDataApp, portfolioDataWeb } from "../../constant";
-
+//eslint-disable-next-line
 const Portfolio = ({ page }) => {
   const portfolioData = page === "web" ? portfolioDataWeb : portfolioDataApp;
 
@@ -20,7 +20,7 @@ const Portfolio = ({ page }) => {
           >
             Explore some of the successful projects we have delivered,
             showcasing our expertise across diverse domains. Here are some of
-            our valued clients and the work we've done for them
+            our valued clients and the work we&apos;ve done for them
           </p>
         </div>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-3">

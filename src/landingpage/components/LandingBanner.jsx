@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import { images, landingpageimages } from "../../constant";
-
+//eslint-disable-next-line
 const LandingBanner = ({ page }) => {
   const { landingaboutpc } = landingpageimages;
   const { smobiledevelopmentimage } = images;

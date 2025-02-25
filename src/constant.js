@@ -48,17 +48,7 @@ import testimonialsuserimage from "./assets/images/testimonialsuserimage.png";
 import contactuspagebanner from "./assets/images/contactuspagebanner.jpg";
 import landingpagebannerapp from "./assets/images/landingpagebannerapp.jpg";
 import landingpagebannerweb from "./assets/images/landingpagebannerweb.png";
-import portfoliwebone from "./assets/images/portfolio/1-min.webp";
-import portfoliwebtwo from "./assets/images/portfolio/2-min.webp";
-import portfoliwebthree from "./assets/images/portfolio/3-min.webp";
-import portfoliwebfour from "./assets/images/portfolio/4-min.webp";
-import portfoliwebfive from "./assets/images/portfolio/5-min.webp";
-import portfoliwebseven from "./assets/images/portfolio/6-min.webp";
-import portfoliappone from "./assets/images/portfolio/1-appmin.webp";
-import portfoliapptwo from "./assets/images/portfolio/2-appmin.webp";
-import portfoliappthree from "./assets/images/portfolio/3-appmin.webp";
-import portfoliappfour from "./assets/images/portfolio/4-appmin.webp";
-import portfolisppsfive from "./assets/images/portfolio/5-appmin.webp";
+
 import whychooseusimg from "./assets/images/whychooseus.png";
 import ecommerce from "./assets/images/landingpage/ecommerce.png";
 import socialmedia from "./assets/images/landingpage/socialmedia.png";

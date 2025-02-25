@@ -1,11 +1,11 @@
 import { Link as ScrollLink } from "react-scroll";
 import { images, landingpageimages } from "../../constant";
 import RoundedHeading from "../../components/RoundedHeading";
-
+//eslint-disable-next-line
 const LandingAbout = ({ page }) => {
   const isWebDevelopment = page === "web";
-  const { landingaboutpc, landingpagebannerweb } = landingpageimages;
-  const { swebdevelopmentimage, smobiledevelopmentimage } = images;
+  const { landingpagebannerweb } = landingpageimages;
+  const { smobiledevelopmentimage } = images;
   return (
     <div className="mt-16">
       <section
