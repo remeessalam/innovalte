@@ -41,8 +41,8 @@ const Header = () => {
       data-aos="fade-down"
       className=" fixed top-0 w-full   z-50 text-black text-base font-medium"
     >
-      <div className="py-4  border-x border-b backdrop-blur-sm border-customPurple rounded-b-xl  bg-headerandfooterbg bg-opacity-60   w-[90%] flex justify-between items-center gap-10 mx-auto">
-        <div className="flex justify-between gap-2 text-white  items-center min-w-fit w-full  mx-5">
+      <div className="py-4  border-x border-b backdrop-blur-sm border-primary rounded-b-xl  bg-white/50 bg-opacity-60   w-[90%] flex justify-between items-center gap-10 mx-auto">
+        <div className="flex justify-between gap-2 text-black  items-center min-w-fit w-full  mx-5">
           <div className="min-w-fit h-[1rem] md:h-[5.75rem] flex items-center">
             <Link smooth={true} to="banner" className="cursor-pointer">
               <div className="flex justify-center items-center min-w-fit">
@@ -106,7 +106,7 @@ const Header = () => {
             onClick={toggleDrawer}
           >
             <Hamburger
-              color="white"
+              color="black"
               size="23"
               toggled={isOpen}
               rounded
