@@ -54,21 +54,23 @@ const Services = () => {
               <div
                 data-aos={animationType}
                 key={obj.id}
-                className="relative bg-white hover:bg-gradient-to-b from-[#967BB3] to-[#B9A7CC] aspect-square p-4 rounded overflow-hidden shadow flex justify-center items-center"
+                className="relative bg-white hover:bg-gradient-to-b group from-secondary to-tertiary aspect-square p-4 rounded overflow-hidden shadow flex justify-center items-center"
               >
                 {/* Add content for each service item here */}
                 <div className="flex flex-col justify-evenly h-full text-center items-center">
                   <div className="flex justify-center items-center rounded-lg w-[60px] min-h-[60px] bg-white">
                     <img src={obj.img} alt="" width={40} height={40} />
                   </div>
-                  <h2 className="text-head font-bold text-center ">
+                  <h2 className="text-head font-bold text-center group-hover:text-white">
                     {obj.title}
                   </h2>
-                  <p className="text-desc">{obj.paragraph}</p>
+                  <p className="text-desc group-hover:text-white">
+                    {obj.paragraph}
+                  </p>
                   <Link
                     // to={"/services"}
                     onClick={() => handleSelectServiceToShowDetail(obj)}
-                    className="flex items-center border-b text-black w-[6.13rem] "
+                    className="flex items-center border-b text-black w-[6.13rem] group-hover:text-white"
                   >
                     Learn More <MdKeyboardArrowRight />
                   </Link>
