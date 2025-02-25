@@ -64,21 +64,21 @@ const Footer = () => {
         }`}
       >
         {/* Logo Section */}
-        <div className="bg-black w-full md:w-1/4 p-8 flex items-center justify-center">
+        <div className="bg-gray-300 w-full md:w-1/4 p-8 flex items-center justify-center">
           <Link href="/" className="text-white text-3xl font-light">
             <img src={Logo} alt="logo" className="max-h-[5rem]" />
           </Link>
         </div>
 
         {/* Content Section */}
-        <div className="bg-[#dcd3e7] w-full md:w-3/4 p-4 sm:p-8">
+        <div className="bg-secondary/40 w-full md:w-3/4 p-4 sm:p-8">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 py-10">
             {/* Get in Touch Section */}
             <div className="space-y-4 col-span-2 flex justify-between flex-col">
               <h3 className="font-semibold text-lg">Get in Touch</h3>
               <div className="space-y-2">
                 <h4 className="font-semibold text-lg underline">Email</h4>
-                <p className="text-sm">abc@zyc.com</p>
+                <p className="text-sm">{companyDetails.email}</p>
               </div>
               {/* Social Icons */}
               <div className="flex items-center flex-wrap justify-center gap-4 bg-white rounded-full px-2 py-2 sm:w-fit w-full">
@@ -128,7 +128,7 @@ const Footer = () => {
                   <BiMapPin className="w-5 h-5" />
                   <h3 className="font-semibold text-lg">Registered office</h3>
                 </div>
-                <p className="text-sm">Andhra Pradesh - IN</p>
+                <p className="text-sm">{companyDetails.address}</p>
               </div>
               <div
                 className="text-black flex items-center justify-end gap-2 font-semibold text-lg cursor-pointer"

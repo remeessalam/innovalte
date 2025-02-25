@@ -31,7 +31,7 @@ export default {
         primary: "#1a1188",
         secondary: "#3228a8",
         tertiary: "#3d3789",
-        rounderheadingbg: "#eae1ef",
+        rounderheadingbg: "#3d3789",
         primarygradient: "#adf4cb",
         decsriptioncolor: "#747474",
         headerandfooterbg: "#000E29",

@@ -32,12 +32,12 @@ const Portfolio = ({ page }) => {
             >
               <div className="relative w-full h-[300px]">
                 <img
-                  src={project.image}
-                  alt={`${project.name} app preview`}
+                  src={project.img}
+                  alt={`${project.title} app preview`}
                   className="w-full h-full object-cover rounded-lg"
                 />
                 <strong className="w-full text-center absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white text-black bg-opacity-75 text-main px-3 py-1 rounded">
-                  {project.name}
+                  {project.title}
                 </strong>
               </div>
             </li>

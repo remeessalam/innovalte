@@ -24,7 +24,7 @@ const LandingPage = ({ page }) => {
         <LandingBanner page={page} />
         <div
           id="asdf"
-          className="adjustedwidth mx-auto bg-[#DCD3E6] mt-5 sm:mt-20 pt-1 rounded-xl"
+          className="adjustedwidth mx-auto bg-secondary/30 mt-5 sm:mt-20 pt-1 rounded-xl"
         >
           <LandingForm />
         </div>
@@ -51,7 +51,7 @@ const LandingPage = ({ page }) => {
         </div>
         <div
           id="contact"
-          className="adjustedwidth mx-auto bg-[#DCD3E6] mt-5 sm:mt-20 pt-1 rounded-xl"
+          className="adjustedwidth mx-auto bg-secondary/30 mt-5 sm:mt-20 pt-1 rounded-xl"
         >
           <ContactForm />
         </div>

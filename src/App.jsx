@@ -2,7 +2,6 @@ import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "./Layout/AppLayout";
 import Loader from "./components/Loader";
-import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import { Toaster } from "react-hot-toast";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
@@ -84,10 +83,6 @@ const AppRouter = createBrowserRouter([
     path: "/web-development",
     element: (
       <Suspense fallback={<Loader />}>
-        <TawkMessengerReact
-          propertyId="67528a994304e3196aed2726"
-          widgetId="1ied6qqlg"
-        />
         <LandingPage page={"web"} />
       </Suspense>
     ),
@@ -96,10 +91,6 @@ const AppRouter = createBrowserRouter([
     path: "/app-development",
     element: (
       <Suspense fallback={<Loader />}>
-        <TawkMessengerReact
-          propertyId="67528a994304e3196aed2726"
-          widgetId="1ied6qqlg"
-        />
         <LandingPage page={"app"} />
       </Suspense>
     ),

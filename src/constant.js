@@ -18,15 +18,11 @@ import aiimage from "./assets/images/services/aiimage.png";
 import mobiledevelopmentimage from "./assets/images/services/mobiledevelopmentimage.png";
 import webdevelopmentimage from "./assets/images/services/webdevelopmentimage.png";
 import uiuximage from "./assets/images/services/uiuximage.png";
-import customsoftwareimage from "./assets/images/services/customsoftwareimage.png";
 import dataanalyticsimage from "./assets/images/services/dataanalyticsimage.png";
-import iotimage from "./assets/images/services/iotimage.png";
 import roboticautomationimage from "./assets/images/services/roboticautomationimage.png";
-import arvrimage from "./assets/images/services/arvrimage.png";
 import gamedevelopmentimage from "./assets/images/services/gamedevelopmentimage.png";
 import blockchainimage from "./assets/images/services/blockchainimage.png";
 import cloudserviceimage from "./assets/images/services/cloudserviceimage.png";
-import cybersecurityimage from "./assets/images/services/cybersecurityimage.png";
 import cloudmigrationimage from "./assets/images/services/cloudmigration.png";
 import nlpimage from "./assets/images/services/nlp.png";
 //service images
@@ -34,15 +30,11 @@ import saiimage from "./assets/images/serviceimage/aiimage.jpg";
 import smobiledevelopmentimage from "./assets/images/serviceimage/mobiledevelopmentimage.jpg";
 import swebdevelopmentimage from "./assets/images/serviceimage/webdevelopmentimage.jpg";
 import suiuximage from "./assets/images/serviceimage/uiuximage.jpg";
-import scustomsoftwareimage from "./assets/images/serviceimage/customsoftwareimage.png";
 import sdataanalyticsimage from "./assets/images/serviceimage/dataanalyticsimage.jpg";
-import siotimage from "./assets/images/serviceimage/iotimage.png";
 import sroboticautomationimage from "./assets/images/serviceimage/roboticautomationimage.jpg";
-import sarvrimage from "./assets/images/serviceimage/arvrimage.png";
 import sgamedevelopmentimage from "./assets/images/serviceimage/gamedevelopmentimage.jpg";
 import sblockchainimage from "./assets/images/serviceimage/blockchainimage.jpg";
 import scloudserviceimage from "./assets/images/serviceimage/cloudserviceimage.jpg";
-import scybersecurityimage from "./assets/images/serviceimage/cybersecurityimage.png";
 import scloudmigrationimage from "./assets/images/serviceimage/cloudmigration.jpg";
 import snlpimage from "./assets/images/serviceimage/nlp.jpg";
 //other image
@@ -90,9 +82,30 @@ import Scalableframeworks from "./assets/images/Scalableframeworks.jpg";
 import aboutusbanner from "./assets/images/aboutusbanner.jpg";
 import servicepagebanner from "./assets/images/servicepagebanner.jpg";
 import aiImage from "./assets/images/aiimageforcontact.jpg";
-
-import landingaboutpc from "./assets/images/landingaboutpc.png";
+//landingpage images
+import landingaboutpc from "./assets/images/serviceimage/webdevelopmentimage.jpg";
 import faqbg from "./assets/images/faqbg.png";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.png";
+import BayutImg from "./assets/web-development-portfolio/bayut.png";
+import ColdCreekcapImg from "./assets/web-development-portfolio/cold creekcap.png";
+import EmergencyMusicImg from "./assets/web-development-portfolio/emergency music .png";
+import FlatiornImg from "./assets/web-development-portfolio/flatiorn.png";
+import MavenImg from "./assets/web-development-portfolio/maven.png";
+import MenissaCateringsImg from "./assets/web-development-portfolio/menissa caterings.png";
+import MethodistImg from "./assets/web-development-portfolio/methodist.png";
+import ThinkRealityImg from "./assets/web-development-portfolio/think reality.png";
+
+// Import all images at the top (App Development)
+import DubaiTravelGuideImg from "./assets/app-development-portfolio/dubai travel guide.png";
+import EloraHairPalourImg from "./assets/app-development-portfolio/elora hair palour.png";
+import EvansFrancisImg from "./assets/app-development-portfolio/evans francis.png";
+import HouseOfDeliverenceImg from "./assets/app-development-portfolio/house of deliverence.png";
+import MybitsShopImg from "./assets/app-development-portfolio/mybitsshop.png";
+import NamazImg from "./assets/app-development-portfolio/namaz.png";
+import PoteaImg from "./assets/app-development-portfolio/potea.png";
+import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike and car.png";
 export const images = {
   Logo,
   phonenumbersvg,
@@ -554,79 +567,108 @@ export const whyChooseUs = [
 
 export const portfolioDataWeb = [
   {
-    name: "FE Finance",
-    description:
-      "We collaborated with FE Finance to create a user-friendly platform that offers tailored financial solutions, allowing users to access resources and manage their finances effectively. The site features a responsive design and an intuitive interface to enhance user engagement.",
-    image: portfoliwebone,
-    link: "https://www.fe-finance.de",
+    id: 1,
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
-    name: "OCXEE",
-    description:
-      "For OCXEE, we developed a global platform that supports students in their international study journey. The website offers a variety of services, from accommodation assistance to banking, providing a seamless experience tailored to users' specific needs.",
-    image: portfoliwebtwo,
-    link: "https://www.ocxee.com",
+    id: 2,
+    img: BayutImg,
+    title: "Bayut",
+    link: "https://www.bayut.com",
   },
   {
-    name: "Leaderbridge",
-    description:
-      "Leaderbridge connects leaders and professionals across industries, fostering collaboration and knowledge sharing. Our team crafted a dynamic platform that emphasizes seamless networking and user experience.",
-    image: portfoliwebthree,
-    link: "https://www.leaderbridge.com",
+    id: 3,
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
-    name: "Gigzio",
-    description:
-      "Gigzio is a job search platform we helped bring to life, designed to connect job seekers with employers efficiently. With a focus on user-centered design, the platform simplifies the job search process and enhances accessibility across devices.",
-    image: portfoliwebfour,
-    link: "http://www.gigzio.com",
-  },
-
-  {
-    name: "FE Group",
-    description:
-      "FE Group's platform offers comprehensive solutions in finance and consultancy. We developed a robust website that reflects the company’s professional approach, enhancing client interaction and support.",
-    image: portfoliwebfive,
-    link: "https://www.fe.group",
+    id: 4,
+    img: EmergencyMusicImg,
+    title: "Emergency Music",
+    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
   },
   {
-    name: "VTalks",
-    description:
-      "VTalks provides a platform for virtual talks and webinars. We created a highly responsive website to support interactive sessions, allowing users to join, share, and engage with industry experts worldwide.",
-    image: portfoliwebseven,
-    link: "https://www.vtalkz.com",
+    id: 5,
+    img: FlatiornImg,
+    title: "Flatiorn",
+    link: "",
+  },
+  {
+    id: 6,
+    img: MavenImg,
+    title: "Maven",
+    link: "",
+  },
+  {
+    id: 7,
+    img: MenissaCateringsImg,
+    title: "Menissa Caterings",
+    link: "https://messinascatering.com",
+  },
+  {
+    id: 8,
+    img: MethodistImg,
+    title: "Methodist",
+    link: "",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
 ];
 
 export const portfolioDataApp = [
   {
-    name: "Partex",
-    description:
-      "We developed the Partex app to streamline logistics operations, ensuring efficient tracking and management of packages. With real-time updates and a user-friendly interface, Partex enhances both operational efficiency and user satisfaction.",
-    image: portfoliappone,
+    id: 1,
+    img: DubaiTravelGuideImg,
+    title: "Dubai Travel Guide",
+    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
   },
   {
-    name: "Find A Driver",
-    description:
-      "Driver is a comprehensive driver management platform that simplifies fleet operations, driver scheduling, and route optimization. The app is designed to maximize productivity and provide seamless navigation features.",
-    image: portfoliapptwo,
+    id: 2,
+    img: EloraHairPalourImg,
+    title: "Elora Hair Palour",
+    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
   },
   {
-    name: "Glowsy",
-    description:
-      "Glowsy is a beauty and wellness app offering personalized beauty care recommendations and virtual consultations. Our team developed this app to provide an engaging, user-centered experience with tailored beauty solutions.",
-    image: portfoliappthree,
+    id: 3,
+    img: EvansFrancisImg,
+    title: "Evans Francis",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
   },
   {
-    name: "Artisan Express",
-    description:
-      "Artisan Express connects skilled artisans with clients, offering a platform for job booking, ratings, and secure payments. The app enhances user trust and accessibility, creating a dynamic marketplace for craft and trade services.",
-    image: portfoliappfour,
+    id: 4,
+    img: HouseOfDeliverenceImg,
+    title: "House of Deliverence",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
   },
   {
-    name: "House of Deliverance",
-    description:
-      "House of Deliverance is a wellness app designed to provide mental health resources, guided meditation, and daily motivational content. The app fosters a supportive community and offers tools for users to improve mental well-being.",
-    image: portfolisppsfive,
+    id: 5,
+    img: MybitsShopImg,
+    title: "Mybits Shop",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
+  },
+  {
+    id: 6,
+    img: NamazImg,
+    title: "Namaz",
+    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+  },
+  {
+    id: 7,
+    img: PoteaImg,
+    title: "Potea",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+  },
+  {
+    id: 8,
+    img: RentopBikeAndCarImg,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
