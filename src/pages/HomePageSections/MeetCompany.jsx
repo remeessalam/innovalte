@@ -4,7 +4,7 @@ const MeetCompany = () => {
   return (
     <div className="mt-10 sm:mt-30">
       <h2 className="text-sechead mb-10 sm:mb-0 text-center text-black leading-tight">
-        meet InnovAIte IT
+        meet Innovaite It
       </h2>
       <div className="flex justify-center">
         <div className="adjustedwidth  grid grid-cols-1 sm:grid-cole-2 md:grid-cols-3 mt-2 sm:mt-10 mb-10 gap-8">

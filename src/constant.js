@@ -307,21 +307,21 @@ export const companyProcess = [
     img: Finetunedsolutionimg,
     title: "Tailored Solutions for Your Business",
     description:
-      "At InnovAIte IT, we recognize that each business has unique challenges. Our expert team carefully assesses your needs and crafts technology solutions that integrate seamlessly with your operations, enhancing efficiency and productivity.",
+      "We analyze your unique challenges and craft seamless technology solutions to boost efficiency and productivity.",
   },
   {
     id: 2,
     img: Innovationfocused,
     title: "Commitment to Innovation",
     description:
-      "We thrive on innovation and continuous improvement. By staying at the forefront of technological advancements, we provide state-of-the-art solutions that help businesses remain competitive in an ever-evolving digital world.",
+      "Staying ahead of technology trends, we deliver cutting-edge solutions that keep your business competitive.",
   },
   {
     id: 3,
     img: Scalableframeworks,
     title: "Scalability for Future Growth",
     description:
-      "Our technology solutions are built with scalability in mind, ensuring that as your business grows, your systems can evolve with you. We future-proof your digital transformation, allowing you to scale seamlessly.",
+      "Our solutions grow with your business, ensuring seamless scalability and long-term digital success.",
   },
 ];
 

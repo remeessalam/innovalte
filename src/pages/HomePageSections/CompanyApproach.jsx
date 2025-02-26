@@ -43,7 +43,7 @@ const CompanyApproach = () => {
               alt="verticaldivider"
               className="h-full object-cover rounded-xl max-h-[370px]"
             />
-            <div className=" min-h-[290px] md:min-h-[225px] -mt-[100px]  shadow-2xl bg-white/90 mx-5 p-4 rounded-xl text-center  flex flex-col justify-start items-center">
+            <div className=" sm:min-h-[290px] md:min-h-[225px] -mt-[100px]  shadow-2xl bg-white/90 mx-5 p-4 rounded-xl text-center  flex flex-col justify-start items-center">
               <h3 className="text-head h-fit">{obj.title}</h3>
               <p className="h-fit text-desc">{obj.description}</p>
             </div>

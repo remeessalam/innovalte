@@ -47,7 +47,7 @@ const CompanyExperience = () => {
             className="text-black text-smhead flex items-center gap-1"
           >
             {/* <p className="w-[15px] h-[15px] rounded-full bg-[#FCAF3D]"></p> */}
-            Meet InnovAIte IT
+            Meet Innovaite It
           </h5>
           <h2
             data-aos="fade-left"
